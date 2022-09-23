@@ -22,3 +22,14 @@ function isJavaScriptFile(filename) {
    }
 }
 // console.log(isJavaScriptFile('app.js'))
+
+// Problem 3: oilPrice
+
+function oilPrice(diesel, petrol, octane) {
+   const dieselPrice = 114 * diesel;
+   const petrolPrice = 130 * petrol;
+   const octanePrice = 135 * octane;
+   const total = dieselPrice + petrolPrice + octanePrice;
+   console.log(total);
+}
+oilPrice(2, 3, 4);
