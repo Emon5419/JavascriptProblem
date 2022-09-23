@@ -30,6 +30,20 @@ function oilPrice(diesel, petrol, octane) {
    const petrolPrice = 130 * petrol;
    const octanePrice = 135 * octane;
    const total = dieselPrice + petrolPrice + octanePrice;
-   console.log(total);
+   // console.log(total);
 }
 oilPrice(2, 3, 4);
+
+// Problem 4: publicBusFare
+function publicBusFare(totalPeople) {
+
+   const BusMicrobusPeople = totalPeople - 50 - 11;
+
+   const publicBusTicketPrice = 250 * BusMicrobusPeople;
+   console.log('Total Cost of Public Bus:', publicBusTicketPrice)
+
+
+}
+publicBusFare(200)
+
+
